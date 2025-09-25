@@ -135,14 +135,14 @@ Content-Type: application/json
 }
 
 
-# 🔎 Get Suggestions
+# 2/ 🔎 Get Suggestions
 
 
 GET http://localhost:8080/products/get/sa
 
 
 
- # Response:
+ # 3/  Response:
 
  [
   "samsung tv"
