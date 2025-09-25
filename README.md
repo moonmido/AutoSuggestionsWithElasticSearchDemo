@@ -86,20 +86,35 @@ Create the index with the following configuration:
 
 src/main/java/com/AutoSuggestionsWithElasticSearchDemo/
 │
+
 ├── Controllers/
+
 │   └── ProductController.java   # REST APIs (add, search, suggest)
+
 │
+
 ├── Services/
+
 │   └── EsService.java           # Elasticsearch service layer
+
 │
+
 ├── Repositories/
+
 │   └── ProductRepo.java         # Spring Data Elasticsearch repo
+
 │
+
 ├── Models/
+
 │   └── MyProduct.java           # Product entity
+
 │
+
 ├── Utils/
+
 │   └── EsUtil.java              # Match & Prefix query helpers
+
 
 
 
